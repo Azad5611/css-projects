@@ -28,13 +28,13 @@ ul li{
 }
 
 ul li:nth-child(odd) {
-    background-color: linear-gradient(to right,orange, tomato);
+    background-image: linear-gradient(to right, #34fc9b, #fc5dc2);
     text-align: left;
     padding-left: 10%;
     transform: perspective(500px) rotateY(45deg);
 }
 ul li:nth-child(even) {
-    background-color: linear-gradient(to left,orange, tomato);
+    background-image: linear-gradient(to left,#34fc9b, #fc5dc2);
     text-align: right;
     padding-left: 10%;
     transform: perspective(500px) rotateY(-45deg);
